@@ -1,6 +1,9 @@
 # CEUR-Scripts
 This repository consists of scripts for automating the creation of CEUR Proceedings
 
+**Author:** [Parth Mehta](https://www.linkedin.com/in/parthmehta126/)  
+**Organization:** Parmonic 
+
 ## Step by Step Usage
 
 ### 1. Collect Data

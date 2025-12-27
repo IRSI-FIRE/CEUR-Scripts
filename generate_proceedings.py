@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+"""
+generate_proceedings.py
+
+Author: Parth Mehta
+GitHub: https://github.com/parth126
+License: MIT
+
+Description:
+Iterates over list of papers and fills up base-index.html
+"""
+
+__author__ = "Your Name"
+ __copyright__ = "Copyright 2025, Parth Mehta"
+__license__ = "MIT" 
+
+
 import os
 import yaml
 import shutil

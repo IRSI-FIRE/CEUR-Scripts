@@ -1,3 +1,19 @@
+#!/usr/bin/env python3
+"""
+generate_base_index.py
+
+Author: Parth Mehta
+GitHub: https://github.com/parth126
+License: MIT
+
+Description:
+Fetches index template from https://ceur-ws.org/Vol-XXX/index.html and creates a conference specific base-index
+"""
+
+__author__ = "Your Name"
+ __copyright__ = "Copyright 2025, Parth Mehta"
+__license__ = "MIT" 
+
 import os
 import re
 import yaml
