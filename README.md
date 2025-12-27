@@ -22,7 +22,8 @@ python generate_base_index.py --base <FIRE_PAPERS>
 ```
 - This step fetches latest CEUR index template and creates a skeleton with conference details.  
 - The current script is tested on 27-12-2025 and is not guaranteed to work if CEUR updates the HTML index.html template in future.  
-**Note: It is important that you Verify the conference details in the resulting base-index.html file**. 
+
+**Note:** It is important that you verify the conference details in the resulting base-index.html file at this point
 
 ### 4. Create the proceedings folder
 
@@ -33,6 +34,7 @@ python generate_proceedings.py --base <FIRE_PAPERS> --output <ACRONYM><YEAR>
 - This creates a folder names <ACRONYM><YEAR> (e.g FIRE2019) which is supposed to be zipped and submitted to CEUR.
 - This script iterates over the working-notes_info.csv file and adds paper titles, page number and author names to the index file.
 - It also creates a copy of the papers in TA_B.pdf format (A = track id and B = paper id). So T2_1.pdf is the first paper in track 2.     
-**Note: It is important that you verify the resulting index.html file for any errors in paper titles or author names**.
+
+**Note:** It is important that you verify the resulting index.html file for any errors in paper titles or author names at this point
 
 ### 5. Run CEUR Checks
